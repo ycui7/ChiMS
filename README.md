@@ -6,6 +6,7 @@ Chicago Imaging Mass Spectrometer - A universal time-of-flight mass spectrometer
 Dependencies
 =============
 This software does not come with all the dependencies due to coyright issues. However, you can download all the dependencies from their offcial website for free, except LabVIEW enviroment or hardware. Dependecies includes:
+
 1. LabVIEW
 2. NI-VISA
 3. NI-Vision (if you need camera)
