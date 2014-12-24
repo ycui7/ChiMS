@@ -100,6 +100,7 @@
 			<Item Name="Berkeley Nucleonics 500 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BNC/Berkeley Nucleonics 500 Series.lvlib"/>
 			<Item Name="ESP300.lvlib" Type="Library" URL="/&lt;instrlib&gt;/ESP300/ESP300.lvlib"/>
 			<Item Name="Gage.lvlib" Type="Library" URL="/&lt;instrlib&gt;/GageLv_uic/Gage.lvlib"/>
+			<Item Name="Ionwerks_HV_PowerSupply.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Ionwerks/FloatSupply/Ionwerks_HV_PowerSupply.lvlib"/>
 			<Item Name="Micos_uic.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Micos_uic/Micos_uic.lvlib"/>
 			<Item Name="SRS_DG535_Lib.lvlib" Type="Library" URL="/&lt;instrlib&gt;/DG535/SRS_DG535_Lib.lvlib"/>
 		</Item>
@@ -114,6 +115,7 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="DG535_Configs.ctl" Type="VI" URL="/&lt;instrlib&gt;/DG535/DG535_Configs.ctl"/>
+				<Item Name="FloatSupplyAPI.dll" Type="Document" URL="/&lt;instrlib&gt;/Ionwerks/FloatSupply/FloatSupplyAPI.dll"/>
 				<Item Name="GageAdvMultiRec8bit_Core.vi" Type="VI" URL="/&lt;instrlib&gt;/GageLv_uic/GageAdvMultiRec8bit_Core.vi"/>
 				<Item Name="GageTransfer-AdvMultiRec_Hack.vi" Type="VI" URL="/&lt;instrlib&gt;/GageLv_uic/VI/GageTransfer-AdvMultiRec_Hack.vi"/>
 				<Item Name="VoltDecode-AdvMultiRec.vi" Type="VI" URL="/&lt;instrlib&gt;/GageLv_uic/VI/VoltDecode-AdvMultiRec.vi"/>
