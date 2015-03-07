@@ -5,13 +5,10 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="VI" Type="Folder">
-		<Item Name="FakeBeamProfileGenerator.vi" Type="VI" URL="../VI/FakeBeamProfileGenerator.vi"/>
-		<Item Name="FakeImageSignalGenerator.vi" Type="VI" URL="../VI/FakeImageSignalGenerator.vi"/>
-		<Item Name="GenerateFakeSignal.vi" Type="VI" URL="../VI/GenerateFakeSignal.vi"/>
-		<Item Name="GenericDAQ_Configs.ctl" Type="VI" URL="../VI/GenericDAQ_Configs.ctl"/>
-		<Item Name="GenericDAQ_Mode.ctl" Type="VI" URL="../VI/GenericDAQ_Mode.ctl"/>
-		<Item Name="GenericDAQ_PrivateStats.ctl" Type="VI" URL="../VI/GenericDAQ_PrivateStats.ctl"/>
-		<Item Name="GenericDAQ_Status.ctl" Type="VI" URL="../VI/GenericDAQ_Status.ctl"/>
+		<Item Name="CreateDualAxisEncoderTask.vi" Type="VI" URL="../VI/CreateDualAxisEncoderTask.vi"/>
+		<Item Name="Encoder_State.ctl" Type="VI" URL="../VI/Encoder_State.ctl"/>
+		<Item Name="EncoderReadout_Configs.ctl" Type="VI" URL="../VI/EncoderReadout_Configs.ctl"/>
+		<Item Name="EncoderReadout_PrivateStats.ctl" Type="VI" URL="../VI/EncoderReadout_PrivateStats.ctl"/>
 	</Item>
-	<Item Name="GenericDAQCore.vi" Type="VI" URL="../GenericDAQCore.vi"/>
+	<Item Name="DualEncodersReadoutCore(NI-DAQmx).vi" Type="VI" URL="../DualEncodersReadoutCore(NI-DAQmx).vi"/>
 </Library>
