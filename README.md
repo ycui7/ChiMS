@@ -3,7 +3,8 @@ ChiMS
 
 ChiMS is an open-source data acquisition and control software program written within LabVIEW for high speed imaging and depth profiling mass spectrometers. ChiMS can also transfer large datasets from a digitizer to computer memory at high repetition rate, saves data to hard disk at high throughput, and performs high speed data processing. The data acquisition mode generally simulates a digital oscilloscope, but with peripheral devices integrated for control as well as advanced data sorting and processing capabilities. Customized user-designed experiments can be easily written based via several included templates. ChiMS is additionally well suited to non-laser based MS imaging and various other experiments in laser physics, physical chemistry, and surface science. 
 
-More details description refers to: Review of Scientific Instrument paper. 
+More details description availabe in our Review of Scientific Inatrument paper at  http://scitation.aip.org/content/aip/journal/rsi/86/6/10.1063/1.4922913
+
 
 Code Quality
 =============
